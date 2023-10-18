@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    .body {
+      background-color: #7388DAff;
+      height: 80vh;
+      width: 40vw;
+      /* border: 1px solid red; */
+      padding-top: 4%;
+      border-radius: 15px;
+
+    }
+
+    .largeSegment {
+      height: 65%;
+      background-color: azure;
+      width: 80%;
+      border-radius: 15px;
+      margin-left: 10%;
+      padding: 7%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+
+    }
+
+    h1 {
+      color: #3b3a3a;
+    }
+
+    .welcome_text {
+      color: rgb(113, 117, 120);
+    }
+
+    .smallSegment {
+      margin-top: 3%;
+      height: 18%;
+      margin-bottom: 5%;
+      background-color: azure;
+      text-align: center;
+      color: rgb(157, 177, 192);
+      width: 80%;
+      border-radius: 15px;
+      margin-left: 10%;
+      padding: 4%;
+
+    }
+
+    /* --glaucous: #7388DAff;
+--cadet-gray: #A5B4BEff; */
+    button {
+      color: white;
+      background-color: #7388DAff;
+      height: 15%;
+      width: 25%;
+      border: none;
+      border-radius: 10px;
+      padding: auto;
+      align-self: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="body">
+    <section class="largeSegment">
+      <h1>Hey ${userName} ,</h1>
+      <p class="welcome_text">
+        Wowwee! Thanks for registering an account with Diagnosis Assistant App! You're the coolest person in all the
+        land
+        (and I've met a lot of really cool people). <br>
+        Before we get started, we'll need to verify your email.
+      </p>
+      <button>Verify Email</button>
+    </section>
+    <section class="smallSegment">
+      <p>
+        sent by Diagnosis Assistant app GP:Medical Informatics.
+      </p>
+      <p>
+        Helwan university faculty of computers and artificial intelligence.
+      </p>
+    </section>
+  </div>
+
+</body>
+
+</html>
